@@ -1,5 +1,7 @@
 # Web Project with HTML, CSS, JavaScript, and JSON-Server
 
+![GIFTOS](https://github.com/onepiece-coding/Web-Project-with-HTML-CSS-JavaScript-and-JSON-Server/blob/main/images/screenshot.png)
+
 Welcome to this web project that demonstrates how to build a fully functional site using HTML, CSS, JavaScript, and JSON-Server for simulating backend functionality. This project is ideal for beginners who want to learn how to structure, style, and add interactivity to a website with a basic server setup.
 
 ## Table of Contents
