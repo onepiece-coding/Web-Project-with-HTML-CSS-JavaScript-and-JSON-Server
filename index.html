@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="A complete web project using HTML, CSS, JavaScript, and JSON-server.">
+
+    <title>GIFTOS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/global.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="css/queries.css">
+
+</head>
+
+<body>
+
+    <header class="main-header">
+
+        <h1 class="giftos-header">
+
+            <a href="#">GIFTOS</a>
+
+        </h1>
+
+        <button class="toggle-navbar-btn" aria-label="Toggle Navbar Menu Button">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+        <nav class="navbar">
+
+            <ul class="nav-links">
+
+                <li>
+                    
+                    <a href="#" class="nav-link">Home</a>
+                
+                </li>
+
+                <li>
+                    
+                    <a href="#shop" class="nav-link">Shop</a>
+                
+                </li>
+
+                <li>
+                    
+                    <a href="#why-us" class="nav-link">Why Us</a>
+                
+                </li>
+
+                <li>
+                    
+                    <a href="#testimonial" class="nav-link">Testimonial</a>
+                
+                </li>
+
+                <li>
+                    
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <button class="open-cart-btn">
+
+            <i class="fa-solid fa-bag-shopping"></i>
+
+            <span class="cart-quantity">1</span>
+
+        </button>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="slider">
+
+            <div class="slides">
+
+                <div class="slide">
+
+                    <div class="hero-content">
+
+                        <h2 class="primary-title">Welcome To Our Gift Shop</h2>
+
+                        <p class="hero-desc">Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia
+                        suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum,
+                        perspiciatis enim, accusantium perferendis.</p>
+
+                        <a href="#" class="btn">Contact Us</a>
+
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="hero-content">
+
+                        <h2 class="primary-title">Welcome To Our Gift Shop</h2>
+
+                        <p class="hero-desc">Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia
+                        suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum,
+                        perspiciatis enim, accusantium perferendis.</p>
+
+                        <a href="#" class="btn">Contact Us</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="slider-actions">
+
+                <button class="prev" aria-label="prev">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                </button>
+                
+                <img src="images/line.png" alt="Line">
+
+                <button class="next" aria-label="next">
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="latest-products" id="shop">
+
+        <h3 class="secondary-title">Latest Products</h3>
+
+        <div class="latest-products--container"></div>
+
+        <div>
+
+            <a href="#" class="btn">View All Products</a>
+
+        </div>
+
+    </section>
+
+    <aside class="cart">
+
+        <div class="cart-header">
+
+            <h3 class="section-heading">Cart</h3>
+
+            <button class="close-cart-btn">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+        <div class="cart-items"></div>
+
+        <div class="cart--sub-total">
+
+            Total : <span></span>
+
+        </div>
+
+    </aside>
+
+    <section class="why-us" id="why-us">
+
+        <h3 class="secondary-title">Why Shop With Us</h3>
+
+        <div class="why-us--boxes">
+
+            <div class="why-us--box">
+
+                <img src="images/truck.svg" alt="Why Us">
+
+                <h4 class="why-us--box-title">Fasr Delivery</h4>
+
+                <p class="why-us--box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            </div>
+
+            <div class="why-us--box">
+            
+                <img src="images/free.svg" alt="Why Us">
+            
+                <h4 class="why-us--box-title">Free Shiping</h4>
+            
+                <p class="why-us--box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            
+            </div>
+
+            <div class="why-us--box">
+            
+                <img src="images/high-quality.svg" alt="Why Us">
+            
+                <h4 class="why-us--box-title">Best Quality</h4>
+            
+                <p class="why-us--box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="testimonials" id="testimonial">
+
+        <h3 class="secondary-title">Testimonial</h3>
+
+        <div class="testimonials-container">
+
+            <button class="testimonials-prev" aria-label="testimonials prev">
+            
+                <i class="fa-solid fa-chevron-left"></i>
+            
+            </button>
+
+            <div class="testimonial show" data-access="testimonial-0">
+
+                <h4 class="testimonial--username">Rochak</h4>
+                
+                <span class="testimonial--about-user">
+                
+                    Default model text
+                
+                </span>
+                
+                <p class="testimonial--text">
+                
+                    Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                    sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for
+                    'lorem
+                    ipsum' will uncover many web sites still in their infancy. editors now use Lorem Ipsum as their default model text,
+                    and
+                    a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                
+                </p>
+
+            </div>
+        
+            <div class="testimonial" data-access="testimonial-1">
+            
+                <h4 class="testimonial--username">Morijorch</h4>
+            
+                <span class="testimonial--about-user">
+            
+                    Default model text
+            
+                </span>
+            
+                <p class="testimonial--text">
+            
+                    editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites
+                    still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                    will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and
+                    a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+            
+                </p>
+            
+            </div>
+        
+            <div class="testimonial" data-access="testimonial-2">
+            
+                <h4 class="testimonial--username">Brad Johns</h4>
+            
+                <span class="testimonial--about-user">
+            
+                    Default model text
+            
+                </span>
+            
+                <p class="testimonial--text">
+            
+                    Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                    sites still in their infancy, editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                    will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and
+                    a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+            
+                </p>
+            
+            </div>
+
+            <button class="testimonials-next" aria-label="testimonials prev">
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="contact-us" id="contact">
+
+        <h3 class="secondary-title">Contact Us</h3>
+
+        <form class="contact-form">
+
+            <div class="form-group">
+
+                <label for="name">Full Name</label>
+
+                <input type="text" name="name" id="name">
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="email">Email</label>
+
+                <input type="text" name="email" id="email">
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="message">Message</label>
+
+                <textarea name="message" id="message"></textarea>
+
+            </div>
+
+            <button type="submit" class="btn">Send</button>
+
+        </form>
+
+    </section>
+
+    <footer class="main-footer">
+
+        &copy; 2024 All Rights Reserved By OnePiece Coding
+
+    </footer>
+
+    <button class="to-up-btn">
+
+        <i class="fa-solid fa-chevron-up"></i>
+
+    </button>
+
+    <script src="js/scripts.js" type="module"></script>
+    
+</body>
+
+</html>

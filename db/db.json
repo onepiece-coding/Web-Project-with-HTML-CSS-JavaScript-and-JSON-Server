@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "product-image": "p1.png",
+      "product-title": "Ring",
+      "product-price": 200
+    },
+    {
+      "id": "2",
+      "product-image": "p2.png",
+      "product-title": "Watch",
+      "product-price": 300
+    },
+    {
+      "id": "3",
+      "product-image": "p3.png",
+      "product-title": "Teddy Bear",
+      "product-price": 110
+    },
+    {
+      "id": "4",
+      "product-image": "p4.png",
+      "product-title": "Flower Bouquet",
+      "product-price": 45
+    },
+    {
+      "id": "5",
+      "product-image": "p5.png",
+      "product-title": "Teddy Bear",
+      "product-price": 95
+    },
+    {
+      "id": "6",
+      "product-image": "p6.png",
+      "product-title": "Flower Bouquet",
+      "product-price": 70
+    },
+    {
+      "id": "7",
+      "product-image": "p7.png",
+      "product-title": "Watch",
+      "product-price": 400
+    },
+    {
+      "id": "8",
+      "product-image": "p8.png",
+      "product-title": "Ring",
+      "product-price": 450
+    }
+  ],
+  "cart": []
+}

@@ -1,0 +1,41 @@
+# Main Header Content :
+
+- Logo : GIFTOS
+
+- Navbar Links : Home | Shop | Why Us | Testimonial | Contact Us
+
+- Open Cart Button : Bag Icon
+
+# Hero Content:
+
+- Primary Title : Welcome To Our Gift Shop
+
+- Hero Description : Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
+
+- Call To Action Button : Contact Us
+
+# Testimonial Content:
+
+## first:
+
+- Username: Rochak
+
+- About User: Default model text
+
+- Text: Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+
+## second:
+
+- Username: Morijorch
+
+- About User: Default model text
+
+- Text: editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+
+## third:
+
+- Username: Brad Johns
+
+- About User: Default model text
+
+- Text: Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy, editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.

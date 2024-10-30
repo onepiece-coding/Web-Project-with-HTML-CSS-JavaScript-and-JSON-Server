@@ -1,0 +1,389 @@
+@media screen and (min-width: 600px) {
+
+    /* Start Components Styles */
+
+    .primary-title {
+
+        font-size: 3.2rem;
+
+    }
+
+    .section-heading {
+
+        font-size: 3rem;
+
+    }
+
+    .tertiary-title {
+
+        font-size: 2.4rem;
+
+    }
+
+    /* End Components Styles */
+
+    /* Start Main Header Styles */
+
+    .main-header {
+
+        padding: 2.4rem 3.2rem;
+
+    }
+
+    /* End Main Header Styles */
+
+    /* Start Hero Styles */
+
+    .slide {
+
+        padding: 2.4rem 3.2rem;
+
+    }
+
+    /* End Hero Styles */
+
+    /* Start Latest Products Styles */
+
+    .latest-products {
+
+        padding: 6.4rem 3.2rem;
+
+    }
+
+    /* End Latest Products Styles */
+
+    /* Start Why Us Styles */
+
+    .why-us {
+
+        padding: 0 3.2em 6.4rem;
+
+    }
+
+    /* Start Testimonials Styles */
+
+    .testimonials {
+
+        padding: 0 3.2rem 6.4rem;
+
+    }
+
+    /* End Testimonials Styles */
+
+    /* Start Contact Us Styles */
+
+    .contact-us {
+
+        padding: 0 3.2rem 6.4rem;
+
+    }
+
+    /* End Contact Us Styles */
+
+    /* Start Main Footer Styles */
+
+    .main-footer {
+
+        padding: 2.4rem 3.2rem;
+
+    }
+
+    /* End Main Footer Styles */
+    
+}
+
+@media screen and (min-width: 900px) {
+
+    /* Start Components Styles */
+
+    .primary-title {
+
+        font-size: 4.8rem;
+
+    }
+
+    .section-heading {
+
+        font-size: 3.2rem;
+
+    }
+
+    .tertiary-title {
+
+        font-size: 3rem;
+
+    }
+
+    /* End Components Styles */
+
+    /* Start Main Header Styles */
+
+    .main-header {
+
+        padding: 2.4rem 4.8rem;
+
+    }
+
+    .toggle-navbar-btn {
+
+        display: none;
+
+    }
+
+    .navbar {
+
+        position: static;
+
+        width: fit-content;
+
+        background-color: transparent;
+
+        border-top: none;
+
+        padding: 0;
+
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+    
+    .nav-links {
+
+        flex-direction: row;
+
+    }
+
+    /* End Main Header Styles */
+
+    /* Start Hero Styles */
+
+    .slide {
+
+        padding: 2.4rem 4.8rem;
+
+    }
+
+    /* End Hero Styles */
+
+    /* Start Latest Products Styles */
+
+    .latest-products {
+
+        padding: 6.4rem 4.8rem;
+
+    }
+    
+    .latest-products--container {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    /* End Latest Products Styles */
+
+    /* Start Why Us Styles */
+
+    .why-us {
+
+        padding: 0 4.8em 6.4rem;
+
+    }
+
+    .why-us--boxes {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    /* End Why Us Styles */
+
+    /* Start Testimonials Styles */
+
+    .testimonials {
+
+        padding: 0 4.8rem 6.4rem;
+
+    }
+
+    /* End Testimonials Styles */
+
+    /* Start Contact Us Styles */
+
+    .contact-us {
+
+        padding: 0 4.8rem 6.4rem;
+
+    }
+
+    .contact-form {
+
+        flex-direction: row;
+
+    }
+
+    .form-group {
+
+        width: calc(50% - 1.2rem);
+
+    }
+
+    .form-group:last-of-type,
+    .contact-form button {
+
+        width: 100%;
+
+    }
+
+    /* End Contact Us Styles */
+
+    /* Start Main Footer Styles */
+
+    .main-footer {
+
+        padding: 2.4rem 4.8rem;
+
+    }
+
+    /* End Main Footer Styles */
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Start Components Styles */
+
+    .primary-title {
+
+        font-size: 5.2rem;
+
+    }
+
+    .section-heading {
+
+        font-size: 3.6rem;
+
+    }
+
+    .tertiary-title {
+
+        font-size: 3.2rem;
+
+    }
+
+    /* End Components Styles */
+
+    /* Start Main Header Styles */
+    
+        .main-header {
+    
+            padding: 2.4rem 6.4rem;
+    
+        }
+
+    /* End Main Header Styles */
+
+    /* Start Hero Styles */
+
+    .slide {
+
+        padding: 2.4rem 6.4rem;
+
+    }
+
+    .hero-desc {
+
+        max-width: 70%;
+
+    }
+
+    /* End Hero Styles */
+
+    /* Start Latest Products Styles */
+
+    .latest-products {
+
+        padding: 6.4rem 6.4rem;
+
+    }
+    
+    .latest-products--container {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    /* End Latest Products Styles */
+
+    /* Start Why Us Styles */
+
+    .why-us {
+
+        padding: 0 6.4em 6.4rem;
+
+    }
+
+    .why-us--boxes {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    /* End Why Us Styles */
+
+    /* Start Testimonials Styles */
+
+    .testimonials {
+
+        padding: 0 6.4rem 6.4rem;
+
+    }
+
+    /* End Testimonials Styles */
+
+    /* Start Contact Us Styles */
+
+    .contact-us {
+
+        padding: 0 6.4rem 6.4rem;
+
+    }
+
+    /* End Contact Us Styles */
+
+    /* Start Main Footer Styles */
+
+    .main-footer {
+
+        padding: 2.4rem 6.4rem;
+
+    }
+
+    /* End Main Footer Styles */
+
+}
+
+@media screen and (hover: hover) { 
+    
+    /* only if hover is possible ( on desktop ) */
+
+    .btn:hover {
+
+        background-color: transparent;
+
+    }
+
+    .latest-products > div > a:hover,
+    .contact-form button:hover {
+
+        color: #333;
+
+    }
+
+    .latest-product:hover .latest-product--on-hover {
+
+        opacity: 1;
+
+        visibility: visible;
+
+    }
+    
+}
