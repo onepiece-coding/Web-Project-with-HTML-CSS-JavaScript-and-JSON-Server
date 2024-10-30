@@ -59,19 +59,19 @@ This project demonstrates:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
    
-Navigate to the project folder:
+2. Navigate to the project folder:
 
    ```bash
    cd your-repo-name
    ```
 
-Install JSON-Server:
+3. Install JSON-Server:
 
    ```bash
    npm install -g json-server
    ```
 
-Start JSON-Server:
+4. Start JSON-Server:
 
    ```bash
    json-server --watch db.json
