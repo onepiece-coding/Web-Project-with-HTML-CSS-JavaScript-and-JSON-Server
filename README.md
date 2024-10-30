@@ -17,8 +17,6 @@ Welcome to this web project that demonstrates how to build a fully functional si
 - [Project Structure](#project-structure)
   
 - [Contributing](#contributing)
-  
-- [License](#license)
 
 ---
 
@@ -88,10 +86,15 @@ This will start a server at http://localhost:3000.
 ## Project Structure
 
 your-repo-name/
+
 ├── index.html         # Main HTML file
+
 ├── styles.css         # CSS file for styling
+
 ├── script.js          # JavaScript file for interactivity
+
 ├── db.json            # JSON-Server file for mock data
+
 └── README.md          # Project documentation
 
 - index.html: Contains the basic structure of the web pages.
